@@ -54,7 +54,7 @@ $third->next = null;
 $second->next = $third;
 
 $fourth = new node(); 
-$fourth->data = 60;
+$fourth->data = 100;
 $fourth->next = null;
 $third->next = $fourth;
 
