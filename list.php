@@ -53,6 +53,11 @@ $third->data = 30;
 $third->next = null;
 $second->next = $third;
 
+$fourth = new node(); 
+$fourth->data = 40;
+$fourth->next = null;
+$third->next = $fourth;
+
 //print the content of list
 $myList->PrintList();  
 
